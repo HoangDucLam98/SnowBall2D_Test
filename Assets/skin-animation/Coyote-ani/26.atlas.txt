@@ -1,0 +1,55 @@
+
+26.png
+size: 1124,432
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 1034, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+e1
+  rotate: true
+  xy: 840, 51
+  size: 77, 96
+  orig: 77, 96
+  offset: 0, 0
+  index: -1
+e2
+  rotate: true
+  xy: 937, 51
+  size: 77, 96
+  orig: 77, 96
+  offset: 0, 0
+  index: -1
+f
+  rotate: false
+  xy: 496, 86
+  size: 343, 342
+  orig: 343, 342
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 1034, 49
+  size: 42, 14
+  orig: 42, 14
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 1, 1
+  size: 427, 494
+  orig: 427, 494
+  offset: 0, 0
+  index: -1
+spiral
+  rotate: false
+  xy: 840, 129
+  size: 282, 299
+  orig: 282, 299
+  offset: 0, 0
+  index: -1

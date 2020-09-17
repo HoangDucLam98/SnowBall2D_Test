@@ -1,0 +1,76 @@
+
+29.png
+size: 588,800
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+e1
+  rotate: false
+  xy: 495, 683
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+e2
+  rotate: false
+  xy: 495, 604
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+e3
+  rotate: false
+  xy: 495, 525
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 1, 50
+  size: 274, 301
+  orig: 274, 301
+  offset: 0, 0
+  index: -1
+lm
+  rotate: true
+  xy: 555, 336
+  size: 188, 27
+  orig: 188, 27
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 495, 762
+  size: 83, 35
+  orig: 83, 35
+  offset: 0, 0
+  index: -1
+n
+  rotate: false
+  xy: 495, 301
+  size: 59, 36
+  orig: 59, 36
+  offset: 0, 0
+  index: -1
+r
+  rotate: true
+  xy: 495, 338
+  size: 186, 59
+  orig: 186, 59
+  offset: 0, 0
+  index: -1
+spiral
+  rotate: false
+  xy: 303, 1
+  size: 282, 299
+  orig: 282, 299
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 1, 325
+  size: 493, 472
+  orig: 493, 472
+  offset: 0, 0
+  index: -1

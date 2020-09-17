@@ -1,0 +1,76 @@
+
+25.png
+size: 1468,360
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+e1
+  rotate: false
+  xy: 637, 1
+  size: 81, 58
+  orig: 81, 58
+  offset: 0, 0
+  index: -1
+e2
+  rotate: false
+  xy: 719, 1
+  size: 81, 58
+  orig: 81, 58
+  offset: 0, 0
+  index: -1
+e3
+  rotate: false
+  xy: 801, 1
+  size: 81, 58
+  orig: 81, 58
+  offset: 0, 0
+  index: -1
+f
+  rotate: false
+  xy: 1, 29
+  size: 330, 330
+  orig: 330, 330
+  offset: 0, 0
+  index: -1
+k
+  rotate: false
+  xy: 1178, 10
+  size: 278, 94
+  orig: 278, 94
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 1, 10
+  size: 54, 18
+  orig: 54, 18
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 332, 26
+  size: 333, 304
+  orig: 333, 304
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 920, 72
+  size: 257, 287
+  orig: 257, 287
+  offset: 0, 0
+  index: -1
+m3
+  rotate: true
+  xy: 1178, 105
+  size: 254, 287
+  orig: 254, 287
+  offset: 0, 0
+  index: -1
+spiral
+  rotate: false
+  xy: 637, 60
+  size: 282, 299
+  orig: 282, 299
+  offset: 0, 0
+  index: -1

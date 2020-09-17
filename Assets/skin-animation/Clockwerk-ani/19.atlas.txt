@@ -1,0 +1,90 @@
+
+19.png
+size: 492,524
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 312, 5
+  size: 64, 68
+  orig: 64, 68
+  offset: 0, 0
+  index: -1
+e1
+  rotate: false
+  xy: 1, 16
+  size: 85, 99
+  orig: 85, 99
+  offset: 0, 0
+  index: -1
+e2
+  rotate: false
+  xy: 87, 16
+  size: 85, 99
+  orig: 85, 99
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 1, 116
+  size: 404, 290
+  orig: 404, 290
+  offset: 0, 0
+  index: -1
+m1
+  rotate: false
+  xy: 173, 22
+  size: 73, 93
+  orig: 73, 93
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 292, 153
+  size: 191, 367
+  orig: 191, 367
+  offset: 0, 0
+  index: -1
+paralize/1
+  rotate: false
+  xy: 371, 82
+  size: 59, 70
+  orig: 59, 70
+  offset: 0, 0
+  index: -1
+paralize/2
+  rotate: false
+  xy: 427, 15
+  size: 59, 66
+  orig: 59, 66
+  offset: 0, 0
+  index: -1
+paralize/3
+  rotate: true
+  xy: 247, 36
+  size: 79, 64
+  orig: 79, 64
+  offset: 0, 0
+  index: -1
+paralize/4
+  rotate: true
+  xy: 377, 1
+  size: 80, 49
+  orig: 80, 49
+  offset: 0, 0
+  index: -1
+paralize/5
+  rotate: true
+  xy: 312, 74
+  size: 78, 58
+  orig: 78, 58
+  offset: 0, 0
+  index: -1
+paralize/6
+  rotate: true
+  xy: 431, 87
+  size: 65, 59
+  orig: 65, 59
+  offset: 0, 0
+  index: -1

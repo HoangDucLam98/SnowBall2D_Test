@@ -1,0 +1,76 @@
+
+14.png
+size: 484,532
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 1, 1
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+e1
+  rotate: false
+  xy: 201, 51
+  size: 60, 86
+  orig: 60, 86
+  offset: 0, 0
+  index: -1
+e2
+  rotate: true
+  xy: 66, 5
+  size: 60, 86
+  orig: 60, 86
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 1, 138
+  size: 391, 316
+  orig: 391, 316
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 153, 43
+  size: 13, 22
+  orig: 13, 22
+  offset: 0, 0
+  index: -1
+m1
+  rotate: false
+  xy: 318, 273
+  size: 163, 256
+  orig: 163, 256
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 318, 16
+  size: 163, 256
+  orig: 163, 256
+  offset: 0, 0
+  index: -1
+n
+  rotate: false
+  xy: 262, 82
+  size: 55, 55
+  orig: 55, 55
+  offset: 0, 0
+  index: -1
+t1
+  rotate: false
+  xy: 1, 66
+  size: 99, 71
+  orig: 99, 71
+  offset: 0, 0
+  index: -1
+t2
+  rotate: false
+  xy: 101, 66
+  size: 99, 71
+  orig: 99, 71
+  offset: 0, 0
+  index: -1

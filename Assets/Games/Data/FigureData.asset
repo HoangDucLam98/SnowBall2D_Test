@@ -1,0 +1,389 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f87058c329ff28498dfb4f7bfc422d2, type: 3}
+  m_Name: FigureData
+  m_EditorClassIdentifier: 
+  figures:
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 7e814d3906576d34188a137f6ec54010, type: 3}
+    idFigure: 0
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 38686ba3e6d632546a730f70834c08ce, type: 2}
+    heroName: Evillain
+    costType: 1
+    cost: 0
+    number: 500
+    mission: "Ti\xEAu di\u1EC7t 500 enemy"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: fd2b2587b19f0204da2a1f3503015322, type: 3}
+    idFigure: 1
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: b787967c90c71e64da89c9a0f023b58e, type: 2}
+    heroName: Nomercy
+    costType: 2
+    cost: 0
+    number: 15
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 52a6189a92d86024b8d84817c2c35fa8, type: 3}
+    idFigure: 2
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: 08203321950a76a4eacc2a0a92e4c733, type: 2}
+    heroName: Athena
+    costType: 3
+    cost: 0
+    number: 0
+    mission: "Ph\u1EA7n th\u01B0\u1EDFng v\xF4 \u0111\u1ECBch Tournament"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 0efcc11f3587b584faef7925b7bdb4c9, type: 3}
+    idFigure: 3
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 56b4da5b1d16436499e914b3db8645bc, type: 2}
+    heroName: Cherno
+    costType: 0
+    cost: 4100
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 440ee5aa336b0fe4786d0df623784eca, type: 3}
+    idFigure: 4
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 2115db4a08a47394a92669c00e69873f, type: 2}
+    heroName: Horizon
+    costType: 0
+    cost: 5500
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: f227581f391799141aec6ddbb1b128e8, type: 3}
+    idFigure: 5
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: 9dd9f5fd8e2bd7b47af38c717998a01d, type: 2}
+    heroName: Mikey
+    costType: 9
+    cost: 0
+    number: 5
+    mission: "Top 1 5 l\u1EA7n"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: d4711148233b09a4eb00c5afba6eb46c, type: 3}
+    idFigure: 6
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: d9fd8ea84feee264aa9bd5cdd8c4c986, type: 2}
+    heroName: Chikapu
+    costType: 0
+    cost: 6850
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 3f872b02aebd79f46a34bb42f5c6026c, type: 3}
+    idFigure: 7
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: bafb7b4c0865d7d478da0b0d73e1498e, type: 2}
+    heroName: Taurus
+    costType: 3
+    cost: 0
+    number: 0
+    mission: "Ph\u1EA7n th\u01B0\u1EDFng v\xF4 \u0111\u1ECBch Tournament"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 0102cec3b340f2240a7e5ed4aee96b7f, type: 3}
+    idFigure: 8
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 0b63ebc52ea4c3740b66262e3abf580f, type: 2}
+    heroName: Batboiz
+    costType: 0
+    cost: 7600
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 9110b4af1e8d5e34d804c7e3f354a482, type: 3}
+    idFigure: 9
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 1c36915b791e6c447b2cff86587bb4d9, type: 2}
+    heroName: Naoroc
+    costType: 2
+    cost: 0
+    number: 5
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 89713085e16052f4eb99df32dbefca60, type: 3}
+    idFigure: 10
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: cb726ef835bffa34e9ce1b295a776dd5, type: 2}
+    heroName: Tricky
+    costType: 7
+    cost: 0
+    number: 0
+    mission: VIP
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: d141760b59129134d809f6fb23bed559, type: 3}
+    idFigure: 11
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 0257b43fd727d0042960b71187791648, type: 2}
+    heroName: Urgot
+    costType: 0
+    cost: 950
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 1cf449176d6b60a4fa520432001a7f9e, type: 3}
+    idFigure: 12
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 9e94f93f9ffe8e4409b06584d0172e0c, type: 2}
+    heroName: Stick
+    costType: 2
+    cost: 0
+    number: 10
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: e7a1a28bec8453b43a8d641ddba3206c, type: 3}
+    idFigure: 13
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 6dcdc87b2f10e9e4d9b0e942a8cd4c0c, type: 2}
+    heroName: Snowflake
+    costType: 0
+    cost: 4450
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: ec2eb7e7834f4c34fa6a1fac54ffee3f, type: 3}
+    idFigure: 14
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: 70e1a91cd1ed154469456d3ee55ea399, type: 2}
+    heroName: Scandinavia
+    costType: 1
+    cost: 0
+    number: 50
+    mission: "Ti\xEAu di\u1EC7t 50 enemy"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: dfffb68e46ff3554288f2b15b287fa35, type: 3}
+    idFigure: 15
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 54f96d56424113b4cb07185a95d6e41b, type: 2}
+    heroName: Sting
+    costType: 0
+    cost: 7950
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: cf368412ab5af974e91107c4ae99c095, type: 3}
+    idFigure: 16
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 464326bb0a081c341b1fbb3d89f2a9a2, type: 2}
+    heroName: Fireblade
+    costType: 0
+    cost: 8650
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 5d1a96241f1cdee47b4e6e02cb755367, type: 3}
+    idFigure: 17
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 621951de3c1ad154492f9b72f6c68592, type: 2}
+    heroName: Tibber
+    costType: 3
+    cost: 0
+    number: 0
+    mission: "Ph\u1EA7n th\u01B0\u1EDFng v\xF4 \u0111\u1ECBch Tournament"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: c0a5b02b6f6f0c64b95dd04f883bfb3a, type: 3}
+    idFigure: 18
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 882b5ae3689d254439b8eeec9c10d0cf, type: 2}
+    heroName: Clockwerk
+    costType: 0
+    cost: 2350
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: b0f87d408877e8747a6449579172e40f, type: 3}
+    idFigure: 19
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: ad4f4e67c16984f46857d3cdd2a38947, type: 2}
+    heroName: Titan
+    costType: 3
+    cost: 0
+    number: 0
+    mission: "Ph\u1EA7n th\u01B0\u1EDFng v\xF4 \u0111\u1ECBch Tournament"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 47f14aed6184e934e9d85cd5d2ecf56d, type: 3}
+    idFigure: 20
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 511344a26d5cbac4b911e81a85c5b27b, type: 2}
+    heroName: Riota
+    costType: 0
+    cost: 600
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: f802aa2136338734691e0510285b114c, type: 3}
+    idFigure: 21
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: 1460d236517a553498926d8a133cc68c, type: 2}
+    heroName: Wrecking
+    costType: 8
+    cost: 0
+    number: 5000
+    mission: "Ch\u1EA1y 5000m"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 18f295eba68a6e9468220b26b490624a, type: 3}
+    idFigure: 22
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 06fdbad16660d9f4ab84bc729b834f23, type: 2}
+    heroName: Redeemer
+    costType: 0
+    cost: 7250
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 4990a234ea827d44d8cdd315faffc83a, type: 3}
+    idFigure: 23
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: b7ea27131f30fc94e94ebb5992341bff, type: 2}
+    heroName: Savior
+    costType: 7
+    cost: 0
+    number: 0
+    mission: VIP
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 9a34f75fa0ca16d43be5d3615adeb680, type: 3}
+    idFigure: 24
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: a37c264d244cc5349bfd594203e798b8, type: 2}
+    heroName: Quinny
+    costType: 6
+    cost: 0
+    number: 0
+    mission: "\u0110\u0103ng nh\u1EADp ng\xE0y ti\u1EBFp theo"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 7127ce517e2e59a449b19ff7d0b0e09e, type: 3}
+    idFigure: 25
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 9ff0b942ad1640a479053ac1852f6870, type: 2}
+    heroName: Coyote
+    costType: 7
+    cost: 0
+    number: 0
+    mission: VIP
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 40be52aad04951744aa664587df96fed, type: 3}
+    idFigure: 26
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: 1758d9e0926eb4f46ba04fbdbc6ae98e, type: 2}
+    heroName: Krypto
+    costType: 3
+    cost: 0
+    number: 0
+    mission: "Ph\u1EA7n th\u01B0\u1EDFng v\xF4 \u0111\u1ECBch Tournament"
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 66fcb9a4748d13644a5abd08c5bf0e5f, type: 3}
+    idFigure: 27
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: e5b29a69c4f159f4a97dd9b4b5ac68c7, type: 2}
+    heroName: Guardian
+    costType: 0
+    cost: 9350
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: bf122faa3595a504cabcfa172e404997, type: 3}
+    idFigure: 28
+    isUsing: 0
+    isBuy: 0
+    asset: {fileID: 11400000, guid: c94881ff8e65e254281ae35af1e63492, type: 2}
+    heroName: Brainout
+    costType: 0
+    cost: 1300
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 9fc26a0961fe59d4da3472501b94264b, type: 3}
+    idFigure: 29
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: 143b52800f9662a48bd3ffe754c341d5, type: 2}
+    heroName: Thonas
+    costType: 0
+    cost: 8300
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 19f204b3b6ef10b4d943cb67ee61baa2, type: 3}
+    idFigure: 30
+    isUsing: 1
+    isBuy: 1
+    asset: {fileID: 11400000, guid: b35ca9f5c601d0844b35acdefc7213c9, type: 2}
+    heroName: Volibear
+    costType: 5
+    cost: 0
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: f69567e01f6813b47956ef38b174f1d2, type: 3}
+    idFigure: 31
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: b35ca9f5c601d0844b35acdefc7213c9, type: 2}
+    heroName: Manny
+    costType: 5
+    cost: 0
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 0334fcf64ea0b22428526b8d1520d264, type: 3}
+    idFigure: 32
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: b35ca9f5c601d0844b35acdefc7213c9, type: 2}
+    heroName: Diego
+    costType: 5
+    cost: 0
+    number: 0
+    mission: 
+  - id: 0
+    figureSprite: {fileID: 21300000, guid: 839f903466096614b8b8523b5f9d1c0f, type: 3}
+    idFigure: 33
+    isUsing: 0
+    isBuy: 1
+    asset: {fileID: 11400000, guid: b35ca9f5c601d0844b35acdefc7213c9, type: 2}
+    heroName: Sid
+    costType: 5
+    cost: 0
+    number: 0
+    mission: 

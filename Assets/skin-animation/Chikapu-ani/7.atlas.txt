@@ -1,0 +1,90 @@
+
+7.png
+size: 748,332
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 523, 121
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+c1
+  rotate: true
+  xy: 523, 71
+  size: 49, 46
+  orig: 49, 46
+  offset: 0, 0
+  index: -1
+c2
+  rotate: true
+  xy: 523, 25
+  size: 45, 46
+  orig: 45, 46
+  offset: 0, 0
+  index: -1
+d
+  rotate: false
+  xy: 331, 27
+  size: 191, 158
+  orig: 191, 158
+  offset: 0, 0
+  index: -1
+e1
+  rotate: true
+  xy: 597, 18
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+e2
+  rotate: true
+  xy: 642, 18
+  size: 37, 44
+  orig: 37, 44
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 1, 1
+  size: 327, 329
+  orig: 327, 329
+  offset: 0, 0
+  index: -1
+h1
+  rotate: false
+  xy: 570, 86
+  size: 27, 34
+  orig: 27, 34
+  offset: 0, 0
+  index: -1
+h2
+  rotate: false
+  xy: 570, 51
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+m
+  rotate: true
+  xy: 570, 19
+  size: 31, 24
+  orig: 31, 24
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 331, 186
+  size: 142, 272
+  orig: 142, 272
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 604, 56
+  size: 142, 272
+  orig: 142, 272
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,69 @@
+
+13.png
+size: 1508,292
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+e1
+  rotate: true
+  xy: 343, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+e2
+  rotate: true
+  xy: 524, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+e3
+  rotate: true
+  xy: 705, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+e4
+  rotate: true
+  xy: 886, 1
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+f1
+  rotate: false
+  xy: 1, 7
+  size: 341, 283
+  orig: 341, 283
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 343, 118
+  size: 172, 430
+  orig: 172, 430
+  offset: 0, 0
+  index: -1
+m2
+  rotate: true
+  xy: 774, 118
+  size: 172, 430
+  orig: 172, 430
+  offset: 0, 0
+  index: -1
+spiral
+  rotate: true
+  xy: 1205, 8
+  size: 282, 299
+  orig: 282, 299
+  offset: 0, 0
+  index: -1
+t
+  rotate: false
+  xy: 1067, 36
+  size: 94, 81
+  orig: 94, 81
+  offset: 0, 0
+  index: -1

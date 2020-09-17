@@ -1,0 +1,533 @@
+{
+  "project_info": {
+    "project_number": "544541717278",
+    "firebase_url": "https://sport-free-game-online.firebaseio.com",
+    "project_id": "sport-free-game-online",
+    "storage_bucket": "sport-free-game-online.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:5c653263bcaff870964f0f",
+        "android_client_info": {
+          "package_name": "com.brain.iq.challenge.smart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:610d4c35914ec206964f0f",
+        "android_client_info": {
+          "package_name": "com.color.ring.neon.glow.color.merge.neon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:3acd4f0e7b47a9b2964f0f",
+        "android_client_info": {
+          "package_name": "com.demon.fighter.warrior.fighting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:820e00596630a7e4964f0f",
+        "android_client_info": {
+          "package_name": "com.dunk.shot.hit.game.basketball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:b053457940030d99964f0f",
+        "android_client_info": {
+          "package_name": "com.flipper.dunk.basketball.ball.dunkshot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:50d702968d227906964f0f",
+        "android_client_info": {
+          "package_name": "com.hockey.allstar.battle.icerage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:59ce414d79aa3a01964f0f",
+        "android_client_info": {
+          "package_name": "com.knife.hit.knives.cash.money"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:c21aa225aabc162b964f0f",
+        "android_client_info": {
+          "package_name": "com.knives.knife.crashgame.bladeblade.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:c54cc7bf48b9ed43964f0f",
+        "android_client_info": {
+          "package_name": "com.kr.ball.io.action"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:9231127a65e2ecca964f0f",
+        "android_client_info": {
+          "package_name": "com.snowball.multiplayer.rolling.smash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:66d444f1f37dd7f6964f0f",
+        "android_client_info": {
+          "package_name": "com.stick.stickman.shadow.stickmanshadow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:242cc88cc4d0b8c5964f0f",
+        "android_client_info": {
+          "package_name": "com.stickman.warrior.dragonz.fighterz.survivalepic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:dcb690cdb5ecd1b0964f0f",
+        "android_client_info": {
+          "package_name": "com.toparcade.knives.knife.blade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:9fcde6a941b6280c964f0f",
+        "android_client_info": {
+          "package_name": "com.topgame.sport.wwe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:f2e9b4ba16b8b8f4964f0f",
+        "android_client_info": {
+          "package_name": "com.topsport.supreme.duel.soccer.battle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:691c49d785efd69a964f0f",
+        "android_client_info": {
+          "package_name": "com.wrestle.wwe.io.blade.knife.knives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:73e68436b880f9d4964f0f",
+        "android_client_info": {
+          "package_name": "uk.soccer.all.star.ballte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544541717278:android:5779125675642370964f0f",
+        "android_client_info": {
+          "package_name": "us.lck.lpl.hextech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC1Wa_PPINpDCvVHw2oBk1PSF3B2FzG9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544541717278-vb8nbp4ulqsut44743u3ke22esrdr0l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

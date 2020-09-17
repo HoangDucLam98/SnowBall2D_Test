@@ -1,0 +1,62 @@
+
+30.png
+size: 924,424
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+X
+  rotate: false
+  xy: 217, 35
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+e1
+  rotate: false
+  xy: 110, 33
+  size: 106, 66
+  orig: 106, 66
+  offset: 0, 0
+  index: -1
+e2
+  rotate: false
+  xy: 1, 33
+  size: 108, 66
+  orig: 108, 66
+  offset: 0, 0
+  index: -1
+f
+  rotate: true
+  xy: 521, 8
+  size: 215, 247
+  orig: 215, 247
+  offset: 0, 0
+  index: -1
+m
+  rotate: false
+  xy: 1, 1
+  size: 179, 31
+  orig: 179, 31
+  offset: 0, 0
+  index: -1
+m1
+  rotate: true
+  xy: 1, 100
+  size: 320, 314
+  orig: 320, 314
+  offset: 0, 0
+  index: -1
+m2
+  rotate: false
+  xy: 316, 11
+  size: 204, 409
+  orig: 204, 409
+  offset: 0, 0
+  index: -1
+m3
+  rotate: true
+  xy: 521, 224
+  size: 196, 402
+  orig: 196, 402
+  offset: 0, 0
+  index: -1

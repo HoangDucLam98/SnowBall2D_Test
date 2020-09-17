@@ -1,0 +1,153 @@
+{
+"skeleton": {
+	"hash": "tkD9oXicAW6URT/7w2H51x+xgA0",
+	"spine": "3.8.87",
+	"x": -149.5,
+	"y": -70.5,
+	"width": 299,
+	"height": 524,
+	"images": "./Skin_SnowBall/4/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "d", "parent": "root", "x": 0.52, "y": -53.51 },
+	{ "name": "bone", "parent": "root", "y": 301.94, "scaleX": 2.576, "scaleY": 2.576 }
+],
+"slots": [
+	{ "name": "d", "bone": "d", "attachment": "d" },
+	{ "name": "d2", "bone": "d", "color": "848484ff" },
+	{ "name": "4", "bone": "root", "attachment": "4" },
+	{ "name": "paralize/1", "bone": "bone", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"4": {
+				"4": { "y": 191.5, "width": 299, "height": 524 }
+			},
+			"d": {
+				"d": { "x": -0.52, "y": 10.7, "width": 223, "height": 51 }
+			},
+			"d2": {
+				"d": { "x": -0.52, "y": 10.7, "width": 223, "height": 51 }
+			},
+			"paralize/1": {
+				"paralize/1": { "width": 59, "height": 70 },
+				"paralize/2": { "width": 59, "height": 66 },
+				"paralize/3": { "width": 79, "height": 64 },
+				"paralize/4": { "width": 80, "height": 49 },
+				"paralize/5": { "width": 78, "height": 58 },
+				"paralize/6": { "width": 65, "height": 59 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"d": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" },
+					{ "time": 1.3333, "color": "ffffffff" }
+				]
+			},
+			"d2": {
+				"attachment": [
+					{ "name": "d" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				]
+			},
+			"d": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				]
+			}
+		},
+		"drawOrder": [
+			{
+				"offsets": [
+					{ "slot": "d", "offset": 1 }
+				]
+			}
+		]
+	},
+	"stun": {
+		"slots": {
+			"d2": {
+				"color": [
+					{ "color": "848484ff" },
+					{ "time": 0.1667, "color": "ff000000" },
+					{ "time": 0.3333, "color": "848484ff" },
+					{ "time": 0.5, "color": "ff000000" },
+					{ "time": 0.6667, "color": "848484ff" },
+					{ "time": 0.8333, "color": "ff000000" },
+					{ "time": 1, "color": "848484ff" },
+					{ "time": 1.1667, "color": "ff000000" },
+					{ "time": 1.3333, "color": "848484ff" }
+				],
+				"attachment": [
+					{ "name": "d" }
+				]
+			},
+			"paralize/1": {
+				"attachment": [
+					{ "name": "paralize/1" },
+					{ "time": 0.0333, "name": "paralize/2" },
+					{ "time": 0.0667, "name": "paralize/3" },
+					{ "time": 0.1, "name": "paralize/4" },
+					{ "time": 0.1333, "name": "paralize/5" },
+					{ "time": 0.1667, "name": "paralize/6" },
+					{ "time": 0.2, "name": null }
+				]
+			}
+		},
+		"bones": {
+			"d": {
+				"rotate": [
+					{}
+				],
+				"translate": [
+					{}
+				]
+			},
+			"root": {
+				"rotate": [
+					{},
+					{ "time": 0.0333, "angle": 0.19 },
+					{ "time": 0.0667 },
+					{ "time": 0.1, "angle": -0.91 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "angle": 0.19 },
+					{ "time": 0.2 },
+					{ "time": 0.2333, "angle": -0.91 },
+					{ "time": 0.2667 }
+				],
+				"translate": [
+					{}
+				]
+			},
+			"bone": {
+				"scale": [
+					{ "x": 1.487 }
+				]
+			}
+		}
+	}
+}
+}
