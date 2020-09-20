@@ -403,20 +403,6 @@ public class UIGameplay : MonoBehaviour
 
             AudioManager1.Ins.PlaySound(SoundType.Revive);
         }
-        // if (UIManager.Ins.UpdateCoins(costRevive))
-        // {
-        //     Player.Done = false;
-        //     player.numberGoBack++;
-        //     revive = true;
-        //     StartCoroutine(PlayEffect());
-
-        //     // AudioManager.PlaySound(AudioManager.reviveName);
-        //     AudioManager1.Ins.PlaySound(SoundType.Revive);
-        // }
-        // else
-        // {
-        //     Debug.Log("Not enought Money");
-        // }
     }
 
     IEnumerator PlayEffect()

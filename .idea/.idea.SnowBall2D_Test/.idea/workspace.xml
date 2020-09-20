@@ -25,11 +25,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIHome.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Home/FigureItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Home/BuySkinController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIGameplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
       </list>
     </option>
   </component>
@@ -80,6 +81,8 @@
       <updated>1600362955561</updated>
       <workItem from="1600362961978" duration="3353000" />
       <workItem from="1600570318727" duration="3495000" />
+      <workItem from="1600586901111" duration="291000" />
+      <workItem from="1600597988146" duration="457000" />
     </task>
     <servers />
   </component>
