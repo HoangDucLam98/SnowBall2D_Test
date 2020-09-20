@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b3104c8-823e-4cf1-a57d-da5c02e4b156" name="Default Changelist" comment="" />
@@ -24,12 +24,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIHome.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GamePlay/GameController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIPopup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Home/FigureItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIHome.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Home/BuySkinController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
       </list>
     </option>
   </component>
@@ -78,7 +78,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600362955561</updated>
-      <workItem from="1600362961978" duration="2855000" />
+      <workItem from="1600362961978" duration="3353000" />
+      <workItem from="1600570318727" duration="3495000" />
     </task>
     <servers />
   </component>
@@ -92,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,12 +7,42 @@ using Spine.Unity;
 
 public class FigureItem : MonoBehaviour
 {
+    [SerializeField] private Button btn;
+    [SerializeField] private int index;
     [SerializeField]
     private GameObject[] costTypePre; // 0 = coin, 1 = using, 2 = video, 3 = Mission
     public Text nameTxt, costTxt, videoTxt;
     public GameObject boxImage;
     public SkeletonGraphic skeleton;
 
+    private void Awake()
+    {
+        btn = GetComponent<Button>();
+        btn.onClick.AddListener(() =>
+        {
+            boxImage.Show();
+        });
+    }
+
+    public void OnShow()
+    {
+        if (index == UIManager.Ins.PlayerFigure)
+        {
+            Using();
+        }
+    }
+
+    public void Using()
+    {
+        boxImage.Show();
+        costTypePre[1].Show();
+    }
+
+    public void UnUsing()
+    {
+        costTypePre[1].Hide();
+    }
+    
     public void SetUp(InfoFigure info)
     {
         nameTxt.text = info.heroName;

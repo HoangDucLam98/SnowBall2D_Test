@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,6 +23,7 @@ public class BuySkinController : MonoBehaviour
     public Button missionInfo;
 
     private int _currentFigure;
+    [SerializeField] private List<FigureItem> figureItems;
 
     private void Awake()
     {
@@ -32,25 +34,14 @@ public class BuySkinController : MonoBehaviour
     }
 
     // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        // listInfo = new List<InfoFigure>();
+        foreach (var VARIABLE in figureItems)
+        {
+            VARIABLE.OnShow();
+        }
 
-        // foreach (var item in figureData.figures)
-        // {
-        //     InfoFigure data = new InfoFigure();
-        //     data.heroName = item.heroName;
-        //     data.isUsing = item.isUsing;
-        //     data.costType = item.costType;
-        //     data.cost = item.cost;
-        //     data.asset = item.asset;
-        //     data.isBuy = item.isBuy;
-        //     data.idFigure = item.idFigure;
-
-        //     listInfo.Add(data);
-        // }
-
-        // GenerateBuySkin();
+        previousFigureItem = currentFigureItem = figureItems[UIManager.Ins.PlayerFigure - 30];
     }
 
     public void GenerateBuySkin()
@@ -74,32 +65,6 @@ public class BuySkinController : MonoBehaviour
         {
             GameObject newButton = Instantiate(figureButton, figureContent);
             FigureItem figureItem = newButton.GetComponent<FigureItem>();
-
-            // if (!item.isBuy && item.costType == CostType.KillEnemy && item.number <= UIManager.Ins.NumberKilled)
-            // {
-            //     item.isBuy = true;
-            // }
-
-            // if (!item.isBuy && item.costType == CostType.Top && item.number <= UIManager.Ins.NumberTop)
-            // {
-            //     item.isBuy = true;
-            // }
-
-            // if (!item.isBuy && item.costType == CostType.Run && item.number <= UIManager.Ins.PlayerMoveDistance)
-            // {
-            //     item.isBuy = true;
-            // }
-
-            // if (!item.isBuy && item.costType == CostType.Video)
-            // {
-            //     if (UIManager.Ins.VideoCount >= item.number)
-            //         item.isBuy = true;
-            //     else
-            //     {
-            //         figureItem.videoTxt.text = UIManager.Ins.VideoCount + "/" + item.number;
-            //         videoTxt.text = UIManager.Ins.VideoCount + "/" + item.number;
-            //     }
-            // }
 
             if (!item.isBuy)
             {
@@ -153,11 +118,6 @@ public class BuySkinController : MonoBehaviour
     {
         // AudioManager.PlaySound(AudioManager.selectFigureName);
         AudioManager1.Ins.PlaySound(SoundType.Click);
-
-        // if (missionInfo.gameObject.activeSelf)
-        // {
-        //     missionInfo.Hide();
-        // }
 
         if (currentFigureItem != previousFigureItem || figureItem != previousFigureItem)
         {
@@ -222,6 +182,8 @@ public class BuySkinController : MonoBehaviour
     public void ChangeCurrentFigure(int idFigure)
     {
         _currentFigure = idFigure;
+        previousFigureItem.SetActiveBox();
+        previousFigureItem = figureItems[idFigure - 30];
     }
 
     public void SelectFigure()
@@ -229,21 +191,9 @@ public class BuySkinController : MonoBehaviour
         // AudioManager.PlaySound(AudioManager.buttonName);
         AudioManager1.Ins.PlaySound(SoundType.Select);
 
-//        // get info of previous figure selected
-//        InfoFigure previousInfo = UIManager.Ins.figureData.figures[UIManager.Ins.PlayerFigure];
-//        UIManager.Ins.ChangeFigureData(currentInfoData.idFigure);
-//
-//        // get info of current figure selected
-//        InfoFigure currentInfo = UIManager.Ins.figureData.figures[UIManager.Ins.PlayerFigure];
-//
-//        // setup itemFigure
-//        selectedFigureItem.SetUp(previousInfo);
-//        currentFigureItem.SetUp(currentInfo);
-//
-//        selectedFigureItem = currentFigureItem;
-
-//        UIManager.Ins.home.LoadAsset(currentInfo);
-
+        currentFigureItem.UnUsing();
+        currentFigureItem = figureItems[_currentFigure - 30];
+        currentFigureItem.Using();
         UIManager.Ins.PlayerFigure = _currentFigure;
         UIManager.Ins.home.LoadFigure();
 //        HideAllButton();

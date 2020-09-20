@@ -50,7 +50,7 @@ public class GameController : MonoBehaviour
             info.id = i;
             info.itemName = data.botNames[t].botName[m];
             info.flagSprite = data.botNames[t].icon;
-            int index = Random.Range(31, figureData.figures.Count);
+            int index = Random.Range(30, figureData.figures.Count);
             info.figureSprite = figureData.figures[index].figureSprite;
             info.isDeath = false;
             if (i == 0)
