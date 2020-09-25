@@ -51,6 +51,7 @@ public class UIGameplay : MonoBehaviour
 
     bool enoughCoin;
     public Button reviveCoin, reviveVideo;
+    int index;
 
     // Start is called before the first frame update
     void Start()
@@ -61,6 +62,7 @@ public class UIGameplay : MonoBehaviour
         }
 
         totalCoinClaim = 0;
+        index = 0;
 
         // reviveCoin.onClick.AddListener(GoBackCoin);
         // reviveVideo.onClick.AddListener(GoBackVideo);
@@ -218,9 +220,10 @@ public class UIGameplay : MonoBehaviour
 
     public void NextButton()
     {
-        int index = Random.Range(0, 3);
+        index++;
         Player.Done = false;
-        if (index != 0)
+        ManagerAds.Ins.ShowBanner();
+        if (index % 2 != 0)
         {
             ClearData();
             UIManager.Ins.UpdateCoins(totalCoinClaim);

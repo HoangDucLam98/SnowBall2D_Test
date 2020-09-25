@@ -52,44 +52,44 @@ public class ClaimReward : MonoBehaviour
 
     public void OnCheckCanClaimReward(CostType type)
     {
-        switch (type)
-        {
-            case CostType.KillEnemy:
-                if (killRewards.Count > killIndex && killRewards[killIndex].number <= UIManager.Ins.NumberKilled)
-                {
-                    UIManager.Ins.figureData.figures.Find(m => m.idFigure == killRewards[killIndex].idFigure).isBuy = true;
-                    OnShow(killRewards[killIndex]);
-                    killIndex++;
-                }
-                break;
+        // switch (type)
+        // {
+        //     case CostType.KillEnemy:
+        //         if (killRewards.Count > killIndex && killRewards[killIndex].number <= UIManager.Ins.NumberKilled)
+        //         {
+        //             UIManager.Ins.figureData.figures.Find(m => m.idFigure == killRewards[killIndex].idFigure).isBuy = true;
+        //             OnShow(killRewards[killIndex]);
+        //             killIndex++;
+        //         }
+        //         break;
 
-            case CostType.Top:
-                if (topRewards.Count > topIndex && topRewards[topIndex].number <= UIManager.Ins.NumberTop)
-                {
-                    UIManager.Ins.figureData.figures.Find(m => m.idFigure == topRewards[topIndex].idFigure).isBuy = true;
-                    OnShow(topRewards[topIndex]);
-                    topIndex++;
-                }
-                break;
+        //     case CostType.Top:
+        //         if (topRewards.Count > topIndex && topRewards[topIndex].number <= UIManager.Ins.NumberTop)
+        //         {
+        //             UIManager.Ins.figureData.figures.Find(m => m.idFigure == topRewards[topIndex].idFigure).isBuy = true;
+        //             OnShow(topRewards[topIndex]);
+        //             topIndex++;
+        //         }
+        //         break;
 
-            case CostType.Run:
-                if (runRewards.Count > runIndex && runRewards[runIndex].number <= UIManager.Ins.PlayerMoveDistance)
-                {
-                    UIManager.Ins.figureData.figures.Find(m => m.idFigure == runRewards[runIndex].idFigure).isBuy = true;
-                    OnShow(runRewards[runIndex]);
-                    runIndex++;
-                }
-                break;
+        //     case CostType.Run:
+        //         if (runRewards.Count > runIndex && runRewards[runIndex].number <= UIManager.Ins.PlayerMoveDistance)
+        //         {
+        //             UIManager.Ins.figureData.figures.Find(m => m.idFigure == runRewards[runIndex].idFigure).isBuy = true;
+        //             OnShow(runRewards[runIndex]);
+        //             runIndex++;
+        //         }
+        //         break;
 
-            case CostType.Video:
-                if (videoRewards.Count > videoIndex && videoRewards[videoIndex].number <= UIManager.Ins.VideoCount)
-                {
-                    UIManager.Ins.figureData.figures.Find(m => m.idFigure == videoRewards[videoIndex].idFigure).isBuy = true;
-                    OnShow(videoRewards[videoIndex]);
-                    videoIndex++;
-                }
-                break;
-        }
+        //     case CostType.Video:
+        //         if (videoRewards.Count > videoIndex && videoRewards[videoIndex].number <= UIManager.Ins.VideoCount)
+        //         {
+        //             UIManager.Ins.figureData.figures.Find(m => m.idFigure == videoRewards[videoIndex].idFigure).isBuy = true;
+        //             OnShow(videoRewards[videoIndex]);
+        //             videoIndex++;
+        //         }
+        //         break;
+        // }
     }
 
     public void OnShow(InfoFigure info)

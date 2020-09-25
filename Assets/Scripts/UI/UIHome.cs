@@ -19,9 +19,10 @@ public class UIHome : MonoBehaviour
         changeNameBtn.onClick.AddListener(ChangeName);
         playerCoins.text = UIManager.Ins.PlayerCoins.ToString();
         playerName.text = UIManager.Ins.PlayerName;
-//        LoadAsset(UIManager.Ins.figureData.figures.Find(n => n.idFigure == UIManager.Ins.PlayerFigure));
+        //        LoadAsset(UIManager.Ins.figureData.figures.Find(n => n.idFigure == UIManager.Ins.PlayerFigure));
         // GameController.Instance.SetUpData();
         LoadFigure();
+        ManagerAds.Ins.ShowBanner();
     }
 
     public void LoadFigure()
@@ -91,6 +92,7 @@ public class UIHome : MonoBehaviour
         AudioManager1.Ins.PlayMusic(MusicType.IngameMusic);
         // AudioManager.PlaySound(AudioManager.selectFigureName);
         AudioManager1.Ins.PlaySound(SoundType.Click);
+        ManagerAds.Ins.HideBanner();
     }
 
     public void LoadAsset(InfoFigure info)
