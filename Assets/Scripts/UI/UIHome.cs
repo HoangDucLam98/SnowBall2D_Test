@@ -13,12 +13,14 @@ public class UIHome : MonoBehaviour
 
     public Animation animation;
     public Image figureSelected;
+    [SerializeField] private InputField Name;
 
     private void Start()
     {
         changeNameBtn.onClick.AddListener(ChangeName);
         playerCoins.text = UIManager.Ins.PlayerCoins.ToString();
         playerName.text = UIManager.Ins.PlayerName;
+        Name.text = UIManager.Ins.PlayerName;
         //        LoadAsset(UIManager.Ins.figureData.figures.Find(n => n.idFigure == UIManager.Ins.PlayerFigure));
         // GameController.Instance.SetUpData();
         LoadFigure();
@@ -79,6 +81,7 @@ public class UIHome : MonoBehaviour
 
     public void SetUpData()
     {
+        UIManager.Ins.PlayerName = Name.text;
         GameController.Instance.SetUpData();
     }
 
